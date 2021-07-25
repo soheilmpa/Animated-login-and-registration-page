@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Login Page</title>
+
+        <link rel="icon" type="image/png" href="../img/icon.png">
+
+        <link rel="stylesheet" href="../style/style.css">
+
+        <script type="text/javascript" src="../js/functions.js"></script> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+
+    <body>
+
+        <div class="container">
+            <div class="card">
+                <div class="inner-box" id="card">
+                    <div class="card-front"> 
+                        <h1>LOGIN</h1>
+                        <form>
+                            <input type="email" class="input-box" placeholder="Your   Email" required>
+                            <input type="password" class="input-box" placeholder="Your   Password" required>
+                            <button type="submit" class="submit-btn">Submit</button>
+                            <input type="checkbox" class="check-box"><span id="span">Remember Me</span>
+                        </form>
+                        <a href="forgot_password.html">• Forgot Password •</a>
+                        <p>don't have an account ?</p>
+                        <button type="button" class="btn" onclick="openRegister()">Sign up</button>
+                        
+                    </div>
+
+                    <div class="card-back">
+                        <h1>REGISTER</h1>
+                        <form>
+                            <input type="text" class="input-box" placeholder="Your  Name" required>
+                            <input type="email" class="input-box" placeholder="Your  Email" required>
+                            <input type="password" class="input-box" placeholder="Your  Password" required>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                        <p>already have an account ?</p>
+                        <button type="button" class="btn" onclick="openLogin()">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
